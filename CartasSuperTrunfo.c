@@ -20,6 +20,7 @@ int main() {
     char nomeCidade1[50], nomeCidade2[50];
     int populacao1, populacao2;
     float area1, area2, pib1, pib2;
+    float densidadePopulacional1, densidadePopulacional2, pibPerCapta1, pibPerCapta2;
     int pontosTuristicos1, pontosTuristicos2;
     
     // Coletando dados da primeira Carta:
@@ -47,9 +48,12 @@ int main() {
     printf ("Digite o numero de pontos turisticos: ");
     scanf ("%d", &pontosTuristicos1);
 
+    //Calculando os novos atributos do segundo exercicio
+    
+
     //Coletando dados da segunda carta
 
-     printf ("Digite os dados da segunda carta: \n");
+    printf ("Digite os dados da segunda carta: \n");
 
     printf ("Estado (A-H): ");
     scanf ("%c", &estado2);
@@ -71,6 +75,8 @@ int main() {
 
     printf ("Digite o numero de pontos turisticos: ");
     scanf ("%d", &pontosTuristicos2);
+
+
 
 
     //Exibindo os dados das cartas
